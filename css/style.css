@@ -1,0 +1,118 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 10px;
+  }
+
+  header {
+    width: 780px;
+    height: 150px;
+
+    color: #0a0a0a;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #b5caea;
+  }
+
+/*   .container {
+    max-width: 940px;
+    margin-left:  auto;
+    margin-right: auto;
+    border-left-style: solid;
+    border-color: green;
+    background:url(../images/color-tile.png) left bottom repeat-x, 
+               url(../images/color-tile.png) left top repeat-x;
+    background-color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  } */
+  
+ 
+  h1{
+    width: 500px;    
+    margin: 10px auto;
+    padding: 30px;
+    border: 5px solid #a395db;
+    background-color: #6f8abb;
+    color: #ffffff;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 100%;
+    text-shadow: 1px 1px 2px #323076;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-image: linear-gradient(to bottom, #6fbb9a, #4a9d79);
+    font-family: 'Limelight', cursive;
+  }
+
+  h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #5bcce3;
+    color: #6fbb9a;
+    border-radius: 5px 0 0 5px;
+  }
+
+.nav{
+    margin-top: 15px;
+    display: flex ;
+}
+
+.nav-list{
+    list-style: none; 
+    margin-right: 10px;
+}
+
+nav ul li a:link, nav ul li a:active, nav ul li a:visited{
+    color: #1D3124;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+nav ul li a:hover{
+    background-color: #1D3124;
+    color: #fff;
+}
+
+.content-area{
+    display:flex;
+}
+
+article{
+  background-color: #f9fcff; 
+  flex:3;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+}
+
+aside{
+  background-color: #ecf7de;   
+  flex: 1;
+    min-height: 500px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0px;
+    border-left: 2px dotted #b2a497;
+    border-right: 2px dotted #b2a497;
+}
+
+footer{
+  text-align: center;  
+  width: 800px;
+    height: 40px;
+    padding-top: 20px;
+    background: #b5caea;
+}
